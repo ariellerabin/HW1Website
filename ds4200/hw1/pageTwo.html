@@ -7,21 +7,17 @@
     <link rel ='stylesheet' href="styles/style.css">
 </head>
 <body>
+
     <h2>Page Two</h2>
 
-    <img src="/images/creamsicle.jpeg" alt="Creamsicle Image", height="200", width="auto" >
+
+<div class = 'cat-container'>
+    <img src="/images/creamsicle.jpeg" alt="Creamsicle Image", height="400", width="auto" >
     <br>
-    <img src="/images/tasya.jpeg" alt="Tasya Image", height="200", width="auto">
+    <img src="/images/tasya.jpeg" alt="Tasya Image", height="400", width="auto">
+</div>
     <h3>These are my cats!</h3>
-
-    <button id ='nav'>Previous Page</button>
-
-    <script>
-        const nav = document.getElementById('nav')
-        nav.addEventListener('click', function(){
-            window.location.href = "index.html"
-        })
-
-    </script>
+    <button id="previous">Previous Page</button>
+    <script src="scripts/main.js"></script>
 </body>
 </html>
